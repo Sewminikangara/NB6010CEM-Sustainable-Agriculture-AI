@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables (contains secrets — never commit this)
+.env
+
+# Dataset — too large for git (download via consolidate_data.py + Kaggle)
+data/PlantVillage/
+data/PlantVillage_Clean/
+*.zip
+
+# Model weights — large binary files
+outputs/models/*.pth
+
+# Log files
+*.log
+outputs/logs/
+
+# OS junk
+.DS_Store
+
+# Virtual environment
+venv/
+env/
+.venv/
