@@ -1,7 +1,4 @@
-"""
-src/generate_training_curves.py — Plots training and validation accuracy/loss curves
-from the recorded MobileNetV2 training run results.
-"""
+"""Plots training and validation accuracy/loss curves."""
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import numpy as np
