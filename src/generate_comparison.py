@@ -1,7 +1,4 @@
-"""
-src/generate_comparison.py — Generates a publication-quality bar chart comparing
-model evaluation metrics for MobileNetV2 and ViT-Tiny.
-"""
+"""Generates a publication-quality bar chart comparing model evaluation metrics."""
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np

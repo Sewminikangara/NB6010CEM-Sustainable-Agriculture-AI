@@ -1,6 +1,4 @@
-"""
-Data augmentation transforms for training and evaluation.
-"""
+"""Data augmentation transforms for training and evaluation."""
 from torchvision import transforms
 import config
 

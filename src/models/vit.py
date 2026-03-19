@@ -1,8 +1,3 @@
-# Vision Transformer (ViT) Model Definition
-# Author: Sewmini Kangara (Individual Work)
-# Source: timm (PyTorch Image Models)
-# Modification: ViT-Tiny implementation with custom 38-class classification head.
-# Citations: ViT architecture paper (Dosovitskiy et al.) and Timm library documentation.
 import torch
 import torch.nn as nn
 import timm
