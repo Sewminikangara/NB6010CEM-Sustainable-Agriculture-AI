@@ -1,8 +1,3 @@
-"""
-src/models/mobilenet_v2.py — MobileNetV2 model for 38-class plant disease classification.
-Uses pre-trained ImageNet weights with a custom classifier head (transfer learning).
-Reference: Sandler et al., MobileNetV2: Inverted Residuals and Linear Bottlenecks, CVPR 2018.
-"""
 import torch.nn as nn
 from torchvision import models
 
